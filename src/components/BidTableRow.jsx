@@ -8,6 +8,8 @@ export default function BidTableRow({ bid, handlerStatusChange }) {
     const {_id, title, deadline, price, category, status} = bid || {}
 
 
+    
+
     return (
             <tr>
                 <td className='px-4 py-4 text-sm text-gray-500  whitespace-nowrap'>
